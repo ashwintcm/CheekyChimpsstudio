@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheeky Chimps Studios</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #ffeb3b; text-align: center; padding: 20px; }
+        h1 { color: #ff5722; }
+        p { color: #4CAF50; font-size: 18px; }
+        a { text-decoration: none; color: #3F51B5; font-weight: bold; }
+        .horror-page { background-color: #000; color: #fff; padding: 20px; display: none; }
+        .btn { background-color: #4CAF50; color: #fff; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Cheeky Chimps Studios</h1>
+    <p>Here at the Cheeky Chimps Studios we make games on different engines with friends. We're an upcoming gaming studio.</p>
+    <p>We will make games in Roblox Studio, Unreal, and more. <br> Please join our <a href="https://discord.gg/9zdsshK" target="_blank">Discord server</a> for updates on the game we're working on right now.</p>
+    <button class="btn" onclick="showHorrorPage()">Our Next Game</button>
+
+    <div class="horror-page" id="horrorPage">
+        <h1>The Sleepless One</h1>
+        <p>The Sleepless One is a horror game where the MC of the story, Noah, goes to his best friend's aunt's house, but something bad is happening inside...</p>
+        <p>Stay tuned for more updates!</p>
+    </div>
+
+    <p>Thank you!</p>
+
+    <script>
+        function showHorrorPage() {
+            document.getElementById('horrorPage').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
